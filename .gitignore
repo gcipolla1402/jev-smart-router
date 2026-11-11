@@ -1,0 +1,27 @@
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+*.egg-info/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+.npm-cache/
+
+# Arquivos temporários
+*.log
+.DS_Store
